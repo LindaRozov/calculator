@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+ body {
+   background-color: #8db4ad;
+   font-size: 16px;
+   font-weight: normal;
+   font-family: 'Roboto', sans-serif;
+ }
+ h1 {
+   text-align: center;
+   color: #064c72;
+ }
+ label {
+   color: #026c80;
+ }
+ #calculate {
+   background-color: #ed6335;
+   border: none;
+   color: white;
+ }
+ #calculate:hover {
+   background-color: #E9311A;
+ }
+ #clear {
+   background-color: #ed6335;
+   border: none;
+   color: white;
+ }
+ #clear:hover {
+   background-color: #e9311a;
+ }
+ #number1 {
+   background-color: #ecae7d;
+   border: none;
+ }
+ #operation {
+   background-color: #ecae7d;
+   border: none;
+ }
+ #number2 {
+   background-color: #ecae7d;
+   border: none;
+ }
+ #result {
+   background-color: #ecae7d;
+   border: none;
+ }

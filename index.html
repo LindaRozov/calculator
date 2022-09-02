@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculator</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" charset="utf-8"></script> 
+</head>
+
+<body>
+<h1>Calculator</h1>
+<br>
+<div class="container">
+  <div class="form-group">
+    <label for="number1">Insert first number</label>
+    <input type="number" class="form-control" id="number1" placeholder="Enter first number">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="select">Select operation:</label>
+    <select name="select" class="form-control" id="operation">
+      <option>+</option>
+      <option>-</option>
+      <option>/</option>
+      <option>*</option>
+    </select>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="number2">Insert second number</label>
+    <input type="number" class="form-control" id="number2" placeholder="Enter second number">
+  </div>
+  <button type="submit" class="btn btn-primary" id="calculate">Calculate</button>
+</div>
+<br>
+<div class="container">
+  <div class="form-group">
+    <label for="result">Here is your result</label>
+    <input type="number" class="form-control" id="result" placeholder="Result">
+  </div>
+  <button type="submit" class="btn btn-primary" id="clear">Clear</button>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.4.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
